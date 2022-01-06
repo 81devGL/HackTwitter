@@ -1,35 +1,37 @@
-# SocialBox-Termux
-SocialBox is a Bruteforce Attack Framework [ Facebook , Gmail , Instagram ,Twitter ] , Coded By Belahsan Ouerghi Edit By samsesh
-# Installation
+# Tweetshell v1.0
+Multi-thread Twitter BruteForcer in Shell Script
+
+## Author: github.com/thelinuxchoice
+## IG: instagram.com/thelinuxchoice
+## Edit for Termux : github.com/samsesh
+Tweetshell is an Shell Script to perform multi-threaded brute force attack against Twitter, this script can bypass login limiting and it can test infinite number of passwords with a rate of +400 passwords/min using 20 threads.
+
+## Legal disclaimer:
+
+Usage of TweetShell for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
+
+![tweet](https://user-images.githubusercontent.com/34893261/38052298-2abf6b28-32a7-11e8-83e6-de7c015b774e.png)
+
+### Features
+- Multi-thread (400 pass/min, 20 threads)
+- Save/Resume sessions
+- Anonymous attack through TOR
+- Default password list (best +39k 8 letters)
+- Check valid username
+- Check and Install all dependencies
+
+### Usage:
 ```
-apt-get update
-apt-get install git
-git clone https://github.com/samsesh/SocialBox-Termux.git 
-cd SocialBox-Termux
-chmod +x install-sb.sh
-./install-sb.sh
+git clone https://github.com/thelinuxchoice/tweetshell
+cd tweetshell
+chmod +x tweetshell.sh
+service tor start
+sudo ./tweetshell.sh
 ```
-# Run
+
+### Install requirements (Curl, Tor):
+
 ```
-./SocialBox.sh
+chmod +x install.sh
+./install.sh
 ```
-# Screenshots :
-![Test Image 8](https://github.com/samsesh/SocialBox-Termux/blob/master/Screenshots/sb.png)
-# Tested On :
-* Termux on andriod (tor connected if use vpn )
-### Donate
-- If this project very help you to penetration testing  and u want support me , you can give me a cup of coffee :)
-- [![Donate with Bitcoin](https://en.cryptobadges.io/badge/small/19KHPduHx2C8WAeq13b4xTsGocqq2PM5mN)](https://en.cryptobadges.io/donate/19KHPduHx2C8WAeq13b4xTsGocqq2PM5mN)
-- [doante page](https://github.com/samsesh/donate)
-# for any os :
-* [socialbox](https://github.com/samsesh/SocialBox)
-# Contact
-* [Twitter](https://www.twitter.com/_samsesh) - _samsesh
-* [Instagram](https://www.instagram.com/sam.sesh) - sam.sesh
-# Authors :
-* facebook  : Imad
-* gmail     : Ha3MrX
-* instagram : thelinuxchoice
-* Twitter   : thelinuxchoice
-* SocialBox : samsesh
-* SocialBox-Termux : samsesh
